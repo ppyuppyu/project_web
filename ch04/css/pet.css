@@ -21,12 +21,16 @@ header #logo{
     color: white;
     text-decoration: none;
 }
-header h1:hover{
+header h1 a:hover{
     color: yellowgreen;
 }
 header h1{
     color: #fff; 
     padding-left: 20px;
+}
+header h1 a{
+    color: white;
+    text-decoration: none;
 }
 header nav{
     width: 750px; float: right;
@@ -38,15 +42,15 @@ nav ul{
   
 }
 nav ul li{
-    float: left;
+    float: right;
 }
-a{
+li a{
     display: block;
     padding: 0 20px;
     color: white;
     text-decoration: none;
 }
-a:hover{
+nav ul li a:hover{
     background-color: #2fb2fb;
     color: white;
 }
